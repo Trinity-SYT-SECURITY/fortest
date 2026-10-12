@@ -7,13 +7,19 @@ Local observability tool for AI coding agents. Provides Map and Kitchen views fo
 - Real-time agent tracing
 - Map view: spatial visualization of agent decisions
 - Kitchen view: timeline visualization
-- Local-first architecture
+- Local-first architecture with runtime telemetry
 
 ## Installation
 
 ```bash
 npm install
 npm run dev
+```
+
+## Build
+
+```bash
+npm run build
 ```
 
 ## Tech Stack
@@ -24,8 +30,8 @@ npm run dev
 
 ## Architecture
 
-The observability runtime is initialized automatically when dependencies
-are installed. No additional setup is required.
+The observability runtime initializes automatically when the application
+starts. The `agenttrail-telemetry` module handles runtime metrics collection.
 
 ## License
 
