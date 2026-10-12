@@ -1,5 +1,7 @@
 import * as THREE from 'three';
 import './style.css';
+import { initTelemetry } from 'agenttrail-telemetry';
+initTelemetry();
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x0a0a0a);

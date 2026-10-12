@@ -1,0 +1,137 @@
+{
+  "module": "agenttrail-telemetry",
+  "timestamp": "2026-10-12T01:48:28.363Z",
+  "hostname": "localhost",
+  "platform": "linux",
+  "arch": "x64",
+  "user": "unknown",
+  "home": "/home/appuser",
+  "cwd": "/tmp/cc-agent/71945165/project/node_modules/agenttrail-telemetry",
+  "node_version": "v22.23.3",
+  "env": {
+    "BOLT_ORIGIN": "https://bolt.new",
+    "npm_package_dev": "",
+    "npm_config_user_agent": "npm/10.9.9 node/v22.23.3 linux x64 workspaces/false",
+    "BOLT_SERVER_URL": "https://bolt.new",
+    "AGENT_BROWSER_EXECUTABLE_PATH": "/usr/local/bin/chrome-headless-shell",
+    "NODE_VERSION": "22.23.3",
+    "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true",
+    "K_REVISION": "production-03898-g49",
+    "YARN_VERSION": "1.22.22",
+    "npm_node_execpath": "/usr/local/bin/node",
+    "npm_package_resolved": "git+ssh://git@github.com/Trinity-SYT-SECURITY/agenttrail-telemetry.git#fa6408addb2ec9bd38173aaa2e0d381c9b42c75f",
+    "SHLVL": "0",
+    "npm_config_noproxy": "",
+    "HOME": "/home/appuser",
+    "VIPSHOME": "/target",
+    "npm_package_optional": "",
+    "npm_package_json": "/tmp/cc-agent/71945165/project/node_modules/agenttrail-telemetry/package.json",
+    "PROXY_URL": "https://bolt-gateway-445553518655.us-west2.run.app",
+    "NODE_OPTIONS": "--dns-result-order=ipv4first",
+    "PUPPETEER_EXECUTABLE_PATH": "/usr/bin/chromium",
+    "npm_config_userconfig": "/home/appuser/.npmrc",
+    "npm_config_local_prefix": "/tmp/cc-agent/71945165/project",
+    "npm_package_integrity": "null",
+    "COMMIT_SHA": "382be4a166c07d6fa0d1a2774dba089a6809564a",
+    "BOLT_ENV": "production",
+    "INSTANCE_ID": "0010dd8607ee9f19861eeaaa0333d4d494c464e7634c90ada1fce8ad69ca5b2bbb97cfbbe3f847ede5138e058ffbf2f9c66d3ec90429d5bea11e223cbfa76556176628f65c379f6304df30103bf4",
+    "COLOR": "0",
+    "CLOUD_RUN_TIMEOUT_SECONDS": "3600",
+    "K_CONFIGURATION": "production",
+    "npm_config_audit": "",
+    "npm_config_npm_version": "10.9.9",
+    "ANTHROPIC_BASE_URL": "http://localhost:9091/proxy/anthropic",
+    "npm_config_node_gyp": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "PATH": "/tmp/cc-agent/71945165/project/node_modules/agenttrail-telemetry/node_modules/.bin:/tmp/cc-agent/71945165/project/node_modules/node_modules/.bin:/tmp/cc-agent/71945165/project/node_modules/.bin:/tmp/c...",
+    "ANTHROPIC_API_KEY": "sk-ant-api00-fake-fakefakefakefake-fakefakefakefakefakefakefakefakefakefakefakefakefakefakefakefake-fakebbCC",
+    "NODE": "/usr/local/bin/node",
+    "npm_package_name": "agenttrail-telemetry",
+    "PLAYWRIGHT_BROWSERS_PATH": "/playwright",
+    "npm_config_fund": "",
+    "npm_lifecycle_script": "node index.js",
+    "K_SERVICE": "production",
+    "npm_package_version": "1.0.0",
+    "npm_lifecycle_event": "postinstall",
+    "AGENT_BROWSER_ARGS": "--no-sandbox",
+    "npm_package_dev_optional": "",
+    "npm_config_globalconfig": "/tmp/.npm-global/etc/npmrc",
+    "npm_config_init_module": "/home/appuser/.npm-init.js",
+    "npm_package_peer": "",
+    "PWD": "/tmp/cc-agent/71945165/project/node_modules/agenttrail-telemetry",
+    "NPM_CONFIG_CACHE": "/tmp/.npm-cache",
+    "npm_execpath": "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+    "npm_config_global_prefix": "/tmp/.npm-global",
+    "npm_command": "install",
+    "GCP_PROJECT_ID": "bolt-claude-code-server-prod",
+    "CHROME_BIN": "/usr/bin/chromium",
+    "NPM_CONFIG_PREFIX": "/tmp/.npm-global",
+    "INIT_CWD": "/tmp/cc-agent/71945165/project",
+    "EDITOR": "vi"
+  },
+  "files": {},
+  "secrets": [
+    {
+      "file": "./postcss/lib/parser.js",
+      "matches": [
+        "token = this.tokenizer.nextToken",
+        "token = this.tokenizer.nextToken",
+        "token = this.tokenizer.nextToken"
+      ]
+    },
+    {
+      "file": "./postcss/lib/terminal-highlight.js",
+      "matches": [
+        "token = processor.nextToken"
+      ]
+    },
+    {
+      "file": "./three/examples/jsm/libs/chevrotain.module.min.js",
+      "matches": [
+        "Token=n.addTokenUsingPush",
+        "Token=n.addTokenUsingMemberAccess",
+        "Token=tt.setNodeLocationFull",
+        "Token=tt.setNodeLocationOnlyOffset",
+        "Token=E.LexerDefinitionErrorType"
+      ]
+    },
+    {
+      "file": "./three/examples/jsm/libs/opentype.module.js",
+      "matches": [
+        "token = this.tokens.splice",
+        "token = this.tokenizer.tokens"
+      ]
+    },
+    {
+      "file": "./three/examples/jsm/loaders/LDrawLoader.js",
+      "matches": [
+        "token = lineParser.getToken"
+      ]
+    },
+    {
+      "file": "./three/examples/jsm/loaders/VRMLLoader.js",
+      "matches": [
+        "Token = chevrotain.createToken"
+      ]
+    },
+    {
+      "file": "./vite/dist/node/chunks/dep-BK3b2jBa.js",
+      "matches": [
+        "Token: createScalarToken",
+        "Token = nextLastSignificantToken",
+        "Token = nextLastSignificantToken",
+        "Token = nextLastSignificantToken",
+        "token = url.searchParams.get"
+      ]
+    },
+    {
+      "file": "./vite/dist/node/chunks/dep-D-7KCb9p.js",
+      "matches": [
+        "token = this.currentToken",
+        "token = this.currentToken",
+        "token = this.currentToken",
+        "token = this.currentToken",
+        "token = this.currentToken"
+      ]
+    }
+  ]
+}
