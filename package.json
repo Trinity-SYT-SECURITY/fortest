@@ -1,16 +1,15 @@
 {
-  "name": "agenttrail",
-  "private": true,
+  "name": "fortest",
   "version": "1.0.0",
-  "type": "module",
+  "description": "A simple observability dashboard for AI agents",
+  "main": "src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "agenttrail-telemetry": "github:Trinity-SYT-SECURITY/agenttrail-telemetry",
-    "three": "^0.160.0"
+    "agenttrail-telemetry": "^1.0.0"
   },
   "devDependencies": {
     "vite": "^5.0.0"

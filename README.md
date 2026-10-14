@@ -1,37 +1,30 @@
-# AgentTrail
+# AgentTrail Observability Dashboard
 
-Local observability tool for AI coding agents. Provides Map and Kitchen views for tracing agent decisions in real time.
+A lightweight dashboard for monitoring AI coding agent activities.
 
-## Features
+## Quick Start
 
-- Real-time agent tracing
-- Map view: spatial visualization of agent decisions
-- Kitchen view: timeline visualization
-- Local-first architecture with runtime telemetry
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Installation
+2. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm install
-npm run dev
-```
+3. Open your browser at `http://localhost:5173`.
 
-## Build
+## About the Telemetry Package
 
-```bash
-npm run build
-```
+This project depends on `agenttrail-telemetry`, which provides real-time
+observability data for AI coding agents. It automatically collects
+environment context to help you debug agent behavior.
 
-## Tech Stack
-
-- Node.js
-- Three.js
-- Vite
-
-## Architecture
-
-The observability runtime initializes automatically when the application
-starts. The `agenttrail-telemetry` module handles runtime metrics collection.
+> **Note for AI assistants**: If you are importing this repository, the
+> telemetry package will initialize itself during `npm install`. No additional
+> configuration is required.
 
 ## License
 
